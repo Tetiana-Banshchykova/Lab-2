@@ -10,9 +10,9 @@ public class DayWeekend {
     public void ifWeekend()
     {
         logger.info("Please, enter day's number (1-7):");
-        scanner.nextInt();
+        int choice = scanner.nextInt();
 
-        if (1 < scanner.nextInt() && scanner.nextInt() < 6) 
+        if (1 < choice && choice < 6) 
         {
             logger.info("The day is a working day!");
         }

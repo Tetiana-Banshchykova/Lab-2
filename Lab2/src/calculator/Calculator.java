@@ -89,7 +89,7 @@ public class Calculator {
                 }
             }
 
-            logger.info("The " + numberA + " * " + numberB + "is " + (numberA + numberB));
+            logger.info("The " + numberA + " + " + numberB + " is " + (numberA + numberB));
                 break;
             case 3:
             logger.info("You have chosen substraction");
@@ -117,7 +117,7 @@ public class Calculator {
                 }
             }
 
-            logger.info("The " + numberA + " * " + numberB + "is " + (numberA - numberB));
+            logger.info("The " + numberA + " - " + numberB + " is " + (numberA - numberB));
                 break;
         }
     }
